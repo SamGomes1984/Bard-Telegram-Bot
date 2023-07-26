@@ -1,1 +1,9 @@
 
+services:
+  chatgpt:
+    image: sheepgreen/bard
+    container_name: bard
+    environment:
+      - BARD_TOKEN="YwiuLZxAZfuXOGuUG7mjsd3Ewxn4ommIUzlNvDMlfYxIQkapKNZStjzQJZsVO231Ynb-OA."
+      - TELEGRAM_BOT_TOKEN="6661215905:AAHxWaht0Z0vjjAV570G0SlupL9C1JeYWqU"
+    restart: always
