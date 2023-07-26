@@ -4,10 +4,10 @@ from telebot.async_telebot import AsyncTeleBot
 from Bard import Chatbot
 
 # get config
-token = "......."
+token = "YwiuLZxAZfuXOGuUG7mjsd3Ewxn4ommIUzlNvDMlfYxIQkapKNZStjzQJZsVO231Ynb-OA."
 
 # init telegram bot
-bot_token = "......."
+bot_token = "6661215905:AAHxWaht0Z0vjjAV570G0SlupL9C1JeYWqU"
 bot = AsyncTeleBot(bot_token, parse_mode="MARKDOWN")
 
 # init chatbot
